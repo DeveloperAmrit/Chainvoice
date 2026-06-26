@@ -3,7 +3,7 @@
 
 <!-- Logos -->
 <p align="center">
-  <img alt="Stability Nexus" src="frontend/public/nexus.png" width="140">
+  <img alt="Stability Nexus" src="docs/assets/nexus.png" width="140">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="Chainvoice" src="frontend/public/logo.png" width="140">
 </p>
@@ -19,7 +19,8 @@
   &nbsp;
   <a href="https://discord.gg/YzDKeEfWtS"><img src="https://img.shields.io/discord/995968619034984528?style=flat&logo=discord&logoColor=white&label=Discord&labelColor=5865F2&color=57F287" alt="Discord"></a>
   &nbsp;
-  <a href="https://news.stability.nexus/"><img src="https://img.shields.io/badge/Medium-white?style=flat&logo=medium&logoColor=black" alt="Medium"></a>
+  <a href="https://viewpoints.stability.nexus/">
+  <img src="https://img.shields.io/badge/Stable_Viewpoints-Articles-2ea44f?style=flat&labelColor=facc15" alt="Stable Viewpoints"></a>
   &nbsp;
   <a href="https://linkedin.com/company/stability-nexus"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   &nbsp;
@@ -154,6 +155,17 @@ VITE_WALLETCONNECT_PROJECT_ID=Your Project ID can be obtained from https://dashb
 ```
 > ⚠️ **Security Note:** Never commit `.env` files to version control. Keep your private keys secure.
 
+## Deployed Contracts
+### v1 (Mainnet Deployment — Jan 1)
+- Ethereum Sepolia (11155111)
+```0x54a542dCDC306eE281b5De4613EcEfe6e6ABc562```
+- Ethereum Classic (61)
+```0xD044A85a5daC307217B9bF313A90E8a60AF7DdCe```
+- Polygon Mainnet (137)
+```0xD044A85a5daC307217B9bF313A90E8a60AF7DdCe```
+
+Release: [release v1](https://github.com/StabilityNexus/Chainvoice/releases/tag/v1)
+
 ## Community and Support
 
 Join our community for support, updates, and discussions:
@@ -161,7 +173,7 @@ Join our community for support, updates, and discussions:
 - **Telegram** - [t.me/StabilityNexus](https://t.me/StabilityNexus)
 - **Discord** - [discord.gg/YzDKeEfWtS](https://discord.gg/YzDKeEfWtS)
 - **X (Twitter)** - [@StabilityNexus](https://x.com/StabilityNexus)
-- **Medium** - [news.stability.nexus](https://news.stability.nexus)
+- **Stable ViewPoints** - [news.stability.nexus](https://viewpoints.stability.nexus/)
 - **LinkedIn** - [linkedin.com/company/stability-nexus](https://linkedin.com/company/stability-nexus)
 - **YouTube** - [youtube.com/@StabilityNexus](https://www.youtube.com/@StabilityNexus)
 
@@ -169,6 +181,7 @@ Join our community for support, updates, and discussions:
 
 We welcome contributions! Please read our contributing guidelines and submit pull requests for any improvements.
 
+Before making or updating any smart contract changes, please review the [Smart Contract Contribution Guidelines](https://github.com/StabilityNexus/Chainvoice/blob/main/CONTRIBUTING.md) to ensure compliance with testing, design, and review requirements.
 
 <p align="center">
   <strong>Built with ❤️ by Stability Nexus.</strong>
